@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Prithvi Cleantech</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+   <link href="assets/css/style.css" rel="stylesheet">
+   <link href="footer.css" rel="stylesheet">
+
+<style>
+  /* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3.5%;
+}
+
+/* Header Styles */
+#header {
+  background-color: #99CC66;
+  color: #ffffff;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 80px 0;
+}
+
+/* New Section Styles */
+#newSection,
+#newSection1,
+#newSectionMechanical {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+#newSection h2,
+#newSection1 h2,
+#newSectionMechanical h2 {
+  color: #25582e;
+  font-size: 75px;
+  margin-bottom: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+#newSection p,
+#newSection1 p,
+#newSectionMechanical p {
+  color: #070f10;
+  font-size: 16px;
+  margin-bottom: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+#newSection img,
+#newSection1 img,
+#newSectionMechanical img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+/* Reverse the order of text and image on mobile view */
+@media (max-width: 768px) {
+  #newSection,
+  #newSection1,
+  #newSectionMechanical {
+    flex-direction: column-reverse;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 768px) {
+  #newSection h2,
+  #newSection1 h2,
+  #newSectionMechanical h2 {
+    font-size: 40px; /* Adjust the font size for mobile */
+     margin-bottom: 10px; /* Adjust the margin for mobile */
+   }
+
+  #newSection p,
+  #newSection1 p,
+  #newSectionMechanical p {
+    font-size: 14px; /* Adjust the font size for mobile */
+    margin-bottom: 20px; /* Adjust the margin for mobile */
+  } 
+ }  
+
+
+#newSection {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+#newSection h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#newSection p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+#newSection img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Add rounded corners to the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+
+#header {
+  background-color: rgb(153, 204, 102);;
+  color: #ffffff;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+#header.header-scrolled {
+  background: #175c1a;
+  height: 60px;
+}
+#container {
+  margin-bottom: 20px; /* Adjust the margin as needed */
+
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+</style>
+ </head>
+ 
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html"><span><img src="logo.png"></span><span>Prithvi Cleantech</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li class="active" ><a href="process.html">Our Process</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="ESG.html">ESG</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </nav> <!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+
+
+ <!-- <section id="hero"> -->
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+        <div data-aos="zoom-out">
+          <h1><span>Our Process</span></h1>
+          <h2>Revitalizing tomorrow's energy with today's waste: Crafting eco-friendly, battery-grade materials from recycled Lithium Ion Batteries for a sustainable spark.</h2>
+          <div class="text-center text-lg-left">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+        <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+      </div>
+    </div>
+  </div> -->
+      <!-- <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>   -->
+       <!-- <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+       </g>   -->
+      <!-- <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+       </g>  -->
+      <!-- <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>   -->
+    <!-- </svg> -->
+
+  <!-- </section> -->
+
+
+
+
+  <!-- ======= Hero Section ======= -->
+    <main id="main">
+
+    <section id="newSection" style="
+  background-color: #f5f5f5;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+">
+  <div class="container">
+    <h2 style="
+      color: #175C1A;
+      font-size: 35px;
+      margin-bottom: 20px;
+    ">Our Process</h2>
+    <p style="
+      color: #070f10;
+      font-size: 16px;
+      margin-bottom: 30px;
+    "></p>
+  </div>
+  <img style="
+    max-width: 50%;
+    padding: 10px;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  " src="process.png" alt="Description of the image">
+
+</section>
+
+<!-- Existing Section -->
+<!-- Existing Section -->
+<section id="newSection1" style="
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+">
+
+  <div class="container">
+    <h2 style="
+      color: #175C1A;
+      font-size: 35px;
+      margin-left: 25px;
+      margin-bottom: 20px;
+    ">
+    <div data-aos="fade-right"><a href="#about" style="color: inherit; text-decoration: none;">Reverse logistic</a></h2>
+
+    <ul style="
+      color: #070f10;
+      font-size: 16px;
+      margin-bottom: 30px;
+      margin-left: 25px;
+    ">
+    <div data-aos="fade-left">
+      
+      <li>The reverse logistics operation employs a HUB & SPOKE model, allowing us to acquire end-of-life Lithium-ion cells from a wide range of locations (SPOKE) and transport them securely and effectively to our main recycling facility (HUB).</li>
+      <li><b>Battery sources</b> - We responsibly and ethically secure our inventory of used Li-ion cells from diverse sources, including electronics, electric vehicles, and other devices, with a steadfast commitment to safety. While our current procurement primarily focuses on India, we remain receptive to the potential of sourcing from international locations in the future.</li>
+      <li><b>Harnessing Technology</b> - We employ cutting-edge technologies including Artificial Intelligence, Machine Learning, and Blockchain to continually enhance our efficiency, safety measures, raw material quality, and consistency.</li>
+    </ul>
+  </div>
+ 
+  <img style="
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    transition: box-shadow 0.3s ease-in-out;
+  " src="1.png" alt="Reverse logistic">
+   
+</section>
+
+
+<!-- New Section with Picture on the Left -->
+<section id="newSection1" style="
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+">
+<div data-aos="fade-left"></div>
+  <img style="
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  " src="2.png" alt="Segregation and Dismantling process">
+  <div class="container">
+    <div data-aos="fade-right">
+    <h2 style="
+      color: #175C1A;
+      font-size: 35px;
+      margin-bottom: 20px;
+    ">Segregation and Dismantling process</h2>
+    <ul style="
+      color: #070f10;
+      font-size: 16px;
+      margin-bottom: 30px;
+    ">
+    <div data-aos="fade-right">
+      
+      <li><b>Testing:</b>
+        <ul>
+          <li>Visual inspection: Batteries are visually inspected for any exterior damage or deformities.</li>
+          <li>Voltage testing: Each battery is tested to measure its voltage output to check for any significant deviations.</li>
+          <!-- Add more list items as needed -->
+        </ul>
+      </li>
+      <li><b>Sorting:</b>
+        <ul>
+          <li>Sorting by type: Batteries are sorted based on their chemistry (e.g., lithium cobalt oxide, lithium iron phosphate) and form factor (e.g., cylindrical, prismatic).</li>
+          <!-- Add more list items as needed -->
+        </ul>
+      </li>
+      <li><b>Dismantling:</b>
+        <ul>
+          <li>Manual dismantling: Skilled technicians disassemble the batteries carefully, removing the outer casing and separating the internal components.</li>
+          <!-- Add more list items as needed -->
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- New Section with Picture on the Left -->
+<section id="newSectionMechanical" style="
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+">
+  <div class="container">
+
+    <h2 style="
+      color: #175C1A;
+      font-size: 35px;
+      margin-bottom: 20px;
+    ">Mechanical process</h2>
+    <ul style="
+      color: #070f10;
+      font-size: 16px;
+      margin-bottom: 30px;
+    ">  
+      <div data-aos="fade-right">
+      
+      <li><b>Shredding:</b> The batteries are fed into a shredding machine equipped with sharp blades that tear the batteries apart into smaller pieces. The shredded materials, which include electrodes, electrolytes, and casings, are collected for further processing.</li>
+      <li><b>Crushing:</b> <b>Secondary crushing:</b> The shredded materials are further processed in a crushing machine to reduce their size into smaller fragments. In some cases, the crushed materials are further pulverized into fine powder to facilitate the separation of different components.</li>
+      <li><b>Separation of Components:</b> <b>Mechanical separation:</b> Techniques such as sieving and magnetic separation are utilized to separate metal components (e.g., foils) from the powdered mix. <b>Sieving:</b> The fine powder is passed through sieves to separate the different components based on particle size.</li>
+    </ul>
+  </div>
+  <img style="
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  " src="3.png" alt="Mechanical process">
+</section>
+
+
+<section id="newSection1" style="
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+">   
+  <img style="
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  " src="4.png" alt="Chemical Process">
+  <div class="container">
+    <h2 style="
+      color: #175C1A;
+      font-size: 50px;
+      margin-bottom: 20px;
+    ">Chemical Process</h2>
+    <ul style="
+      color: #070f10;
+      font-size: 16px;
+      margin-bottom: 30px;
+    ">    <div data-aos="fade-right">
+    <li><b>Recovery of active materials:</b> Processes such as hydrometallurgical or pyrometallurgical methods are employed to extract valuable metals such as cobalt, nickel, and lithium from the recovered materials.</li>
+    <li><b>Recovery of other components:</b> Plastics and other non-metallic materials are also recovered for potential reuse or further recycling.</li>
+  </ul>
+  <div data-aos="fade-right">
+  </div>
+</section>
+
+<div style="padding: 28px;">  <p>At PrithviCleantech, we are dedicated to reducing global mining pollution and minimizing battery waste in landfills. Through our commitment to achieving Net Zero Waste and Zero Emissions, we aim to produce high-quality battery materials at our Hubs.</p></div>
+
+    </div>
+  </section>
+    
+
+
+</main>  
+  <!-- ======= Footer ======= -->
+ 
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+
+  <script src="assets/js/main.js"></script>
+
+ 
+</div>
+
+</body>
+
+</html>
